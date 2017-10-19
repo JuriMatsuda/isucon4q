@@ -8,6 +8,7 @@ require 'rack-mini-profiler'
 require 'flamegraph'
 require 'stackprof'
 require 'redis'
+require 'hiredis'
 
 module Isucon4
   class App < Sinatra::Base
